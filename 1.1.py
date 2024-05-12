@@ -7,6 +7,7 @@ while True:
     user_tuple = (user_name, user_origin, user_destination)
     i+=1
     print(f"Itinerary {i}: {user_name} - From {user_origin} to {user_destination}.")
+    again = input("Run again? (yes/no) \n >> ")
     if again.lower() == "yes":
         continue
     else:
